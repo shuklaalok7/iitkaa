@@ -324,6 +324,11 @@ footer a:hover {
   color: #444;
 }
 
+#showcase {
+  margin-top: 7%;
+}
+
+
 /* MISC */
 .clearfix:after {
   clear: both;
