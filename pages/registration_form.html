@@ -11,13 +11,13 @@
     <!--<meta name="keywords" content="alerts,alertmix,email alerts,news alerts,monitor clients,monitor brand,monitor product,alert mix,social media monitor,receive notifications,grow sales,social selling">-->
 
     <!-- Styles -->
-    <link rel="stylesheet" type='text/css' href="lib/bootstrap/css/bootstrap.min.css">
-    <link rel="stylesheet" type='text/css' href="lib/bootstrap/css/bootstrap-responsive.min.css">
+    <link rel="stylesheet" type='text/css' href="/lib/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" type='text/css' href="/lib/bootstrap/css/bootstrap-responsive.min.css">
     <link rel='stylesheet' type='text/css' href='https://fonts.googleapis.com/css?family=Chivo:900'>
-    <link rel="stylesheet" type="text/css" href="stylesheets/main.css" media="screen">
-    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
-    <link rel="stylesheet" type="text/css" href="stylesheets/pygment_trac.css" media="screen">
-    <link rel="stylesheet" type="text/css" href="stylesheets/print.css" media="print">
+    <link rel="stylesheet" type="text/css" href="/stylesheets/main.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="/stylesheets/stylesheet.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="/stylesheets/pygment_trac.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="/stylesheets/print.css" media="print">
 
     <!--[if lt IE 9]>
     <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
@@ -34,7 +34,7 @@
                 <span class="icon-bar"></span>
             </a>
             <a class="brand" href="#">
-                <img src="images/logo.png" alt="Alumni Association" width="125px" height="88px">
+                <img src="/images/logo.png" alt="Alumni Association" width="125px" height="88px">
             </a>
 
             <div class="nav-collapse collapse">
@@ -72,7 +72,7 @@
         </div>
         <div class="row feature">
             <div class="span6">
-                <img src="images/industrial-md.png">
+                <img src="/images/industrial-md.png">
             </div>
             <div class="span6 info">
                 <h3 style="margin-top: 0;">
@@ -131,12 +131,12 @@
                 </ul>
             </div>
             <div class="span6">
-                <img src="images/alumni.jpg" class="pull-right">
+                <img src="/images/alumni.jpg" class="pull-right">
             </div>
         </div>
         <div class="row feature ss">
             <div class="span6">
-                <img src="images/faculty.jpg">
+                <img src="/images/faculty.jpg">
             </div>
             <div class="span6 info">
                 <h3>
@@ -160,7 +160,7 @@
                 </ul>
             </div>
             <div class="span6">
-                <img src="images/government.png" class="pull-right">
+                <img src="/images/government.png" class="pull-right">
             </div>
         </div>
     </div>
@@ -186,21 +186,13 @@
     </div>
 </footer>
 
-<script type="text/javascript" src="lib/jquery-1.11.1.min.js"></script>
-<script type="text/javascript" src="lib/bootstrap/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="/lib/jquery-1.11.1.min.js"></script>
+<script type="text/javascript" src="/lib/bootstrap/js/bootstrap.min.js"></script>
 
 <script type="text/javascript">
     $(document).ready(function() {
         var body = $('body');
-        body.on('click', '.see-more', function(e) {
-            $(this).next('x').removeClass('hide');
-            $(this).addClass('hide');
-        });
 
-        body.on('click', '.show-less', function(e) {
-            $(this).closest('x').addClass('hide');
-            $(this).closest('ul').find('.see-more').removeClass('hide');
-        });
     });
 </script>
 
